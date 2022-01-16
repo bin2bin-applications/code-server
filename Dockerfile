@@ -13,5 +13,5 @@ COPY /start-service.sh /start-service.sh
 COPY /config.yaml /config.yaml
 COPY /reset-password.sh /reset-password.sh
 RUN chmod +x /start-service.sh /reset-password.sh
-ENTRYPOINT ./start-service.sh && tail -f /dev/null
+ENTRYPOINT tail -f /dev/null
 EXPOSE 8080
