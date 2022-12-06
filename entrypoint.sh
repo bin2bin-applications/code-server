@@ -5,4 +5,5 @@ else
     echo "password: $(cat /proc/sys/kernel/random/uuid)" >> /app/config/config.yaml
 fi
 
-/app/src/bin/code-server --config "/app/config/config.yaml" "/app/workspace"
+/app/src/bin/code-server --config "/app/config/config.yaml" "/app/workspace" &
+tail -f /dev/null
