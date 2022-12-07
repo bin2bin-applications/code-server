@@ -10,4 +10,4 @@ if [ ! -f "/app/config/config.yaml" ]; then
     echo "disable-update-check: true" >> /app/config/config.yaml && \
     echo "password: $(cat /proc/sys/kernel/random/uuid)" >> /app/config/config.yaml
 fi
-/app/src/bin/code-server --config "/app/config/config.yaml" "/app/workspace"
+/root/app/bin/code-server --config "/app/config/config.yaml" "/app/workspace"
