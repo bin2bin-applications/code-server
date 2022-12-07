@@ -14,6 +14,5 @@ RUN \
   chmod +x /reset-pass.sh /entrypoint.sh && \
   rm -rf /config/* /tmp/* /var/lib/apt/lists/* /var/tmp/*
 
-VOLUME [ "/app/config", "/app/workspace", "/app/user-data", "/app/extensions" ]
 EXPOSE 8080
 ENTRYPOINT ["/entrypoint.sh"]
