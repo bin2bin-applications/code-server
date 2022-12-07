@@ -5,6 +5,7 @@ COPY reset-pass.sh /reset-pass.sh
 COPY entrypoint.sh /entrypoint.sh
 
 RUN \
+  mkdir -p /root/app && \
   apt-get update && \
   apt-get install -y curl git jq libatomic1 nano net-tools netcat sudo && \
   export CODE_RELEASE=$(curl -sX GET https://api.github.com/repos/coder/code-server/releases/latest | jq -r '.name' | cut -c 2-) && \
