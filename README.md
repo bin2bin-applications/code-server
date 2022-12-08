@@ -9,6 +9,7 @@
 <p>Click <a id="developer" href="https://coder.com/">here</a> to go to developer site</p>
 
 ## Description
+<p id="short description">Visual Studio Code running on web browser</p>
 
 <p id="description">Code-server is a Visual Studio Code instance running on a remote server accessible through any web browser. It allows you to code anywhere and on any device such as a tablet or laptop with a consistent integrated development environment (IDE). Set up a secure a Linux development machine and get coding on any device with a web browser.</p>
 
