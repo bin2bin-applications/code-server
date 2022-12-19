@@ -1,4 +1,4 @@
-#!/bin/sh
+#!/bin/bash
 if [ ! -f "/app/config/config.yaml" ]; then
     mkdir -p /app/src /app/config /app/workspace /app/user-data /app/extensions
     echo "bind-addr: 0.0.0.0:8080" > /app/config/config.yaml && \
