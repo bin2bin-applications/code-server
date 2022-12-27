@@ -2,7 +2,7 @@
 
 <h1 id="name">Code Server</h1>
 
-<img src="logo.webp" width="180" height="180"></img>
+<img id="logo" src="https://raw.githubusercontent.com/bin2bin-applications/code-server/master/logo.webp" width="180" height="180"></img>
 
 ## Developer
 
